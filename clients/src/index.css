@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+:root {
+  --aairo-orange: #fe7f42;
+  --aairo-red: #b32c1a;
+  --aairo-bg: #271a1c;
+  --aairo-bg-dark: #24071d;
+  --aairo-scrollbar: #1a0f1a;
+
+  --aairo-text: #ffffff;
+  --aairo-text-muted: #94a3b8;
+  --aairo-border: rgba(255, 255, 255, 0.12);
+
+  --aairo-success: #22c55e;
+  --aairo-warning: #f59e0b;
+  --aairo-error: #ef4444;
+  --aairo-info: #3b82f6;
+}
+
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+html,
+body {
+  background: linear-gradient(
+    to bottom right,
+    var(--aairo-bg),
+    var(--aairo-bg-dark)
+  );
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: var(--aairo-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    to bottom,
+    var(--aairo-orange),
+    var(--aairo-red)
+  );
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--aairo-scrollbar);
+}

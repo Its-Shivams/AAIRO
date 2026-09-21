@@ -1,0 +1,30 @@
+{
+  "2026-27": {
+    "current": true,
+    "members": [
+      {
+        "name": "Council Member",
+        "role": "President",
+        "group": "core",
+        "branch": "CST",
+        "year": "3rd Year",
+        "image": "",
+        "linkedin": ""
+      },
+      {
+        "name": "Council Member",
+        "role": "Vice President",
+        "group": "core",
+        "branch": "CST",
+        "year": "3rd Year",
+        "image": "",
+        "linkedin": ""
+      }
+    ]
+  },
+
+  "2025-26": {
+    "current": false,
+    "members": []
+  }
+}

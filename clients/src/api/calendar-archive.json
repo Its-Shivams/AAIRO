@@ -1,0 +1,335 @@
+[
+{ 
+    "date": "2025-02-03",
+    "title": "Automation Expo South 2025",
+    "type": "Conference/Expo",
+    "time": "All Day",
+    "location": "Chennai Trade Centre, Chennai, India",
+    "description": "A premier event featuring industry leaders, showcasing advancements and networking opportunities in automation, AI, and robotics.",
+    "color": "Dark Green"
+},
+{
+    "date": "2025-03-07",
+    "title": "Automation Expo South 2025",
+    "type": "Conference/Expo",
+    "time": "All Day",
+    "location": "Chennai Trade Centre, Chennai, India",
+    "description": "A premier event featuring industry leaders, showcasing advancements and networking opportunities in automation, AI, and robotics.",
+    "color": "Dark Green"
+},
+{
+    "date": "2025-03-08",
+    "title": "Automation Expo South 2025",
+    "type": "Conference/Expo",
+    "time": "All Day",
+    "location": "Chennai Trade Centre, Chennai, India",
+    "description": "A premier event featuring industry leaders, showcasing advancements and networking opportunities in automation, AI, and robotics.",
+    "color": "Dark Green"
+},
+{
+    "date": "2025-03-09",
+    "title": "Participation in GRIDCON 2025 Industrial Visit",
+    "type": "Industrial Visit",
+    "time": "All Day",
+    "location": "India International Convention & Expo Centre, Yashobhoomi, Dwarka, India",
+    "description": "GGSIPU participated in an industrial visit to Gridcon 2025 showcasing latest technologies in automation and controls.",
+    "color": "Red"
+},
+{
+    "date": "2025-03-10",
+    "title": "Participation in GRIDCON 2025 Industrial Visit",
+    "type": "Industrial Visit",
+    "time": "All Day",
+    "location": "India International Convention & Expo Centre, Yashobhoomi, Dwarka, India",
+    "description": "GGSIPU participated in an industrial visit to Gridcon 2025 showcasing latest technologies in automation and controls.",
+    "color": "Red"
+},
+{
+    "date": "2025-03-11",
+    "title": "Participation in GRIDCON 2025 Industrial Visit",
+    "type": "Industrial Visit",
+    "time": "All Day",
+    "location": "India International Convention & Expo Centre, Yashobhoomi, Dwarka, India",
+    "description": "GGSIPU participated in an industrial visit to Gridcon 2025 showcasing latest technologies in automation and controls.",
+    "color": "Red"
+},
+{
+    "date": "2025-03-19",
+    "title": "AI Bharat Expo",
+    "type": "Exhibition",
+    "time": "All Day",
+    "location": "Bharat Mandapam, New Delhi, India",
+    "description": "An AI-focused exhibition showcasing India's ongoing artificial intelligence revolution, with participation from industry leaders, innovators, researchers, and government bodies.",
+    "color": "Blue"
+},
+{
+    "date": "2025-03-20",
+    "title": "AI Bharat Expo",
+    "type": "Exhibition",
+    "time": "All Day",
+    "location": "Bharat Mandapam, New Delhi, India",
+    "description": "An AI-focused exhibition showcasing India's ongoing artificial intelligence revolution, with participation from industry leaders, innovators, researchers, and government bodies.",
+    "color": "Blue"
+},
+{
+    "date": "2025-03-21",
+    "title": "AI Bharat Expo",
+    "type": "Exhibition",
+    "time": "All Day",
+    "location": "Bharat Mandapam, New Delhi, India",
+    "description": "An AI-focused exhibition showcasing India's ongoing artificial intelligence revolution, with participation from industry leaders, innovators, researchers, and government bodies.",
+    "color": "Blue"
+},
+{
+    "date": "2025-07-25",
+    "title": "India International IoT Automation Expo 2025",
+    "type": "Expo",
+    "time": "10:00 AM - 5:00 PM",
+    "location": "Bengaluru, Karnataka",
+    "description": "An expo focused on IoT, smart automation, AI-driven automation, and smart manufacturing innovations.",
+    "color": "Dark Green"
+},
+{
+    "date": "2025-08-04",
+    "title": "Digital Twins & Virtual Machining",
+    "type": "FDP Meeting",
+    "time": "9:30 AM - 12:00 PM",
+    "location": "ADGIPS Auditorium",
+    "description": "Technologies that enable manufacturers to create virtual replicas of physical machines and processes of simulate, optimize and test operations in a digital environment before implementation in the real world.",
+    "color": "Black"
+},
+{
+    "date": "2025-08-04",
+    "title": "The Journal of Supercomputing",
+    "type": "FDP Article Discussion",
+    "time": "12:00 PM - 1:00 PM",
+    "location": "ADGIPS Auditorium",
+    "description": "Industrial network-based behavioural anomaly detection in AI-enabled smart manufacturing.",
+    "color": "Black"
+},
+{
+    "date": "2025-08-04",
+    "title": "Automation in Thermal Power Plant",
+    "type": "FDP Meeting",
+    "time": "2:00 PM - 4:30 PM",
+    "location": "ADGIPS Auditorium",
+    "description": "BIS framework for AI integration in manufacturing industries.",
+    "color": "Black"
+},
+{
+    "date": "2025-08-05",
+    "title": "Automation in Thermal Power Plant",
+    "type": "FDP Meeting",
+    "time": "9:30 AM - 12:00 PM",
+    "location": "ADGIPS Auditorium",
+    "description": "Using of Distributed Control Systems (DCS), Supervisory Control and date Acquisition (SCADA) systems, and automated diagnostic tools to manage processes, respond to changes, and prevent or minimize downtime.",
+    "color": "Black"
+},
+{
+    "date": "2025-08-05",
+    "title": "The Journal of Supercomputing",
+    "type": "FDP Article Discussion",
+    "time": "12:00 PM - 1:00 PM",
+    "location": "ADGIPS Auditorium",
+    "description": "Industrial network-based behavioural anomaly detection in AI-enabled smart manufacturing.",
+    "color": "Black"
+},
+{
+    "date": "2025-08-05",
+    "title": "Government-prioritized research domain in Mechanical Engineering",
+    "type": "FDP Meeting",
+    "time": "2:00 PM - 4:30 PM",
+    "location": "ADGIPS Auditorium",
+    "description": "Government-prioritized research domains in Mechanical Engineering in India often focus on areas that align with national priorities like energy, manufacturing, and defense.",
+    "color": "Black"
+},
+{
+    "date": "2025-08-06",
+    "title": "Australian Journal Mechanical Engineering",
+    "type": "FDP Article Discussion",
+    "time": "9:30 AM - 10:30 AM",
+    "location": "ADGIPS Auditorium",
+    "description": "Artificial Intelligence and its relevance in mechanical engineering from Industry 4.0 perspective.",
+    "color": "Black"
+},
+{
+    "date": "2025-08-06",
+    "title": "Latest Trend in Resource Management",
+    "type": "FDP Meeting",
+    "time": "10:30 AM - 1:00 PM",
+    "location": "ADGIPS Auditorium",
+    "description": "A shift towards employee-centric models, data-driven decision making, and the integration of technology, particularly AI, to optimize resource allocation and improve overall efficiency.",
+    "color": "Black"
+},
+{
+    "date": "2025-08-06",
+    "title": "Additive Manufacturing in Industry 4.0",
+    "type": "FDP Meeting",
+    "time": "2:00 PM - 4:30 PM",
+    "location": "ADGIPS Auditorium",
+    "description": "Additive manufacturing (AM), also known as 3D printing, is a key technology in Industry 4.0, the fourth industrial revolution characterized by the integration of digital technologies into manufacturing.",
+    "color": "Black"
+},
+{
+    "date": "2025-08-07",
+    "title": "Australian Journal Mechanical Engineering",
+    "type": "FDP Article Discussion",
+    "time": "9:30 AM - 10:30 AM",
+    "location": "ADGIPS Auditorium",
+    "description": "Artificial Intelligence and its relevance in mechanical engineering from Industry 4.0 perspective.",
+    "color": "Black"
+},
+{
+    "date": "2025-08-07",
+    "title": "Autonomous Vehicle",
+    "type": "FDP Meeting",
+    "time": "10:30 AM - 1:00 PM",
+    "location": "ADGIPS Auditorium",
+    "description": "Autonomous vehicles, also known as self-driving or driverless cars, are vehicles capable of sensing their environment and navigating without human input.",
+    "color": "Black"
+},
+{
+    "date": "2025-08-07",
+    "title": "AI-driven alternatives to conventional simulation workflows",
+    "type": "FDP Meeting",
+    "time": "2:00 PM - 4:30 PM",
+    "location": "ADGIPS Auditorium",
+    "description": "AI-driven simulation workflows offer a powerful alternative to traditional methods by leveraging machine learning and automation to enhance speed, accuracy, and efficiency in design validation, process optimization and more.",
+    "color": "Black"
+},
+{
+    "date": "2025-08-11",
+    "title": "Automation Expo 2025",
+    "type": "Expo",
+    "time": "10:00 AM - 6:00 PM",
+    "location": "Bombay Exhibition Centre (BEC), Goregaon, Mumbai, India",
+    "description": "South Asia's largest platform for showcasing automation, AI, robotics, and smart manufacturing technologies with over 1200 exhibitors.",
+    "color": "Dark Green"
+},
+{
+    "date": "2025-08-12",
+    "title": "Automation Expo 2025",
+    "type": "Expo",
+    "time": "10:00 AM - 6:00 PM",
+    "location": "Bombay Exhibition Centre (BEC), Goregaon, Mumbai, India",
+    "description": "South Asia's largest platform for showcasing automation, AI, robotics, and smart manufacturing technologies with over 1200 exhibitors.",
+    "color": "Dark Green"
+},
+{
+    "date": "2025-08-13",
+    "title": "Automation Expo 2025",
+    "type": "Expo",
+    "time": "10:00 AM - 6:00 PM",
+    "location": "Bombay Exhibition Centre (BEC), Goregaon, Mumbai, India",
+    "description": "South Asia's largest platform for showcasing automation, AI, robotics, and smart manufacturing technologies with over 1200 exhibitors.",
+    "color": "Dark Green"
+},
+{
+    "date": "2025-08-14",
+    "title": "Automation Expo 2025",
+    "type": "Expo",
+    "time": "10:00 AM - 6:00 PM",
+    "location": "Bombay Exhibition Centre (BEC), Goregaon, Mumbai, India",
+    "description": "South Asia's largest platform for showcasing automation, AI, robotics, and smart manufacturing technologies with over 1200 exhibitors.",
+    "color": "Dark Green"
+},
+{
+    "date": "2025-08-20",
+    "title": "AAIRO Meeting",
+    "type": "Meeting",
+    "time": "10:30 AM - 1:00 PM",
+    "location": "ADGIPS Auditorium",
+    "description": "AAIRO society related meeting",
+    "color": "Black"
+},
+{
+    "date": "2025-09-20",
+    "title": "Robotex India National Championship 2025",
+    "type": "Competition",
+    "time": "All Day",
+    "location": "MIT ADT University, Pune, India",
+    "description": "A robotics championship event featuring robot building and competition among participants nationwide.",
+    "color": "Dark Green"
+},
+{
+    "date": "2025-09-21",
+    "title": "Robotex India National Championship 2025",
+    "type": "Competition",
+    "time": "All Day",
+    "location": "MIT ADT University, Pune, India",
+    "description": "A robotics championship event featuring robot building and competition among participants nationwide.",
+    "color": "Dark Green"
+},
+{
+    "date": "2025-11-21",
+    "title": "Factory Automation & Industrial Robotics Expo 2025",
+    "type": "Expo",
+    "time": "All Day",
+    "location": "Autocluster Exhibition Centre, Pune, India",
+    "description": "Event focusing on advancements in factory automation, industrial robotics, and manufacturing technology.",
+    "color": "Dark Green"
+},
+{
+    "date": "2025-11-22",
+    "title": "Factory Automation & Industrial Robotics Expo 2025",
+    "type": "Expo",
+    "time": "All Day",
+    "location": "Autocluster Exhibition Centre, Pune, India",
+    "description": "Event focusing on advancements in factory automation, industrial robotics, and manufacturing technology.",
+    "color": "Dark Green"
+},
+{
+    "date": "2025-11-23",
+    "title": "Factory Automation & Industrial Robotics Expo 2025",
+    "type": "Expo",
+    "time": "All Day",
+    "location": "Autocluster Exhibition Centre, Pune, India",
+    "description": "Event focusing on advancements in factory automation, industrial robotics, and manufacturing technology.",
+    "color": "Dark Green"
+},
+{
+    "date": "2025-11-27",
+    "title": "International Conference on Internet of Things",
+    "type": "Conference",
+    "time": "All Day",
+    "location": "SRHU School of Science & Technology, Jolly Grant, Dehradun, India",
+    "description": "5th international conference focusing on smart IoT applications, innovations, and research.",
+    "color": "Dark Green"
+},
+{
+    "date": "2025-11-28",
+    "title": "International Conference on Internet of Things",
+    "type": "Conference",
+    "time": "All Day",
+    "location": "SRHU School of Science & Technology, Jolly Grant, Dehradun, India",
+    "description": "5th international conference focusing on smart IoT applications, innovations, and research.",
+    "color": "Dark Green"
+},
+{
+    "date": "2025-12-22",
+    "title": "AI & IoT Conference (AIIOT 2025)",
+    "type": "Symposium",
+    "time": "All Day",
+    "location": "IIEST Shibpur, West Bengal, India",
+    "description": "IEEE International Symposium focusing on AI and IoT innovations, attracting researchers, engineers, and industry experts.",
+    "color": "Dark Green"
+},
+{
+    "date": "2025-12-23",
+    "title": "AI & IoT Conference (AIIOT 2025)",
+    "type": "Symposium",
+    "time": "All Day",
+    "location": "IIEST Shibpur, West Bengal, India",
+    "description": "IEEE International Symposium focusing on AI and IoT innovations, attracting researchers, engineers, and industry experts.",
+    "color": "Dark Green"
+},
+{
+    "date": "2025-12-24",
+    "title": "AI & IoT Conference (AIIOT 2025)",
+    "type": "Symposium",
+    "time": "All Day",
+    "location": "IIEST Shibpur, West Bengal, India",
+    "description": "IEEE International Symposium focusing on AI and IoT innovations, attracting researchers, engineers, and industry experts.",
+    "color": "Dark Green"
+}
+]

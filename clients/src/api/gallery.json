@@ -1,0 +1,615 @@
+[
+  {
+    "id": 1,
+    "title": "Icebreaker & Welcome Session",
+    "category": "Interaction Day",
+    "tags": [
+      "event",
+      "students",
+      "icebreaker",
+      "orientation",
+      "fun"
+    ],
+    "url": "/iday/a.jpg",
+    "description": "Students enthusiastically participating in the opening icebreaker session, setting the tone for a vibrant Interaction Day."
+  },
+  {
+    "id": 2,
+    "title": "Team-Building Activities",
+    "category": "Interaction Day",
+    "tags": [
+      "group",
+      "teamwork",
+      "engagement",
+      "activities",
+      "bonding"
+    ],
+    "url": "/iday/b.jpg",
+    "description": "Collaborative games and tasks designed to build teamwork, communication, and a sense of belonging among students."
+  },
+  {
+    "id": 3,
+    "title": "Cultural Performances",
+    "category": "Interaction Day",
+    "tags": [
+      "performance",
+      "stage",
+      "celebration",
+      "dance",
+      "music"
+    ],
+    "url": "/iday/c.jpg",
+    "description": "A lively showcase of cultural performances including dance, music, and skits, adding color and energy to Interaction Day."
+  },
+  {
+    "id": 4,
+    "title": "Outdoor Fun & Exploration",
+    "category": "Interaction Day",
+    "tags": [
+      "outdoor",
+      "exploration",
+      "sports",
+      "adventure",
+      "bonding"
+    ],
+    "url": "/iday/d.jpg",
+    "description": "Exciting outdoor activities and friendly competitions that encouraged teamwork, exploration, and bonding."
+  },
+  {
+    "id": 5,
+    "title": "Capturing Friendships",
+    "category": "Interaction Day",
+    "tags": [
+      "friends",
+      "memories",
+      "happiness",
+      "candid",
+      "group-photo"
+    ],
+    "url": "/iday/e.jpg",
+    "description": "Heartwarming moments of new friendships and candid laughter, perfectly captured to create lasting memories."
+  },
+  {
+    "id": 6,
+    "title": "Moments of Laughter",
+    "category": "Interaction Day",
+    "tags": [
+      "laughter",
+      "fun",
+      "togetherness",
+      "smiles",
+      "energy"
+    ],
+    "url": "/iday/f.jpg",
+    "description": "A vibrant atmosphere filled with joy and togetherness as students enjoyed every moment of the event."
+  },
+  {
+    "id": 7,
+    "title": "Interactive Games & Challenges",
+    "category": "Interaction Day",
+    "tags": [
+      "games",
+      "challenges",
+      "competition",
+      "participation",
+      "fun"
+    ],
+    "url": "/iday/g.jpg",
+    "description": "Students actively engaged in fun challenges and games, sparking healthy competition and excitement."
+  },
+  {
+    "id": 8,
+    "title": "Unity & Celebration",
+    "category": "Interaction Day",
+    "tags": [
+      "unity",
+      "spirit",
+      "celebration",
+      "enthusiasm",
+      "togetherness"
+    ],
+    "url": "/iday/h.jpg",
+    "description": "The day concluded with a spirited celebration, bringing everyone together in a display of unity and enthusiasm."
+  },
+  {
+    "id": 9,
+    "title": "FDP Inaugural Session",
+    "category": "FDP Event",
+    "tags": [
+      "faculty",
+      "development",
+      "training",
+      "opening-ceremony"
+    ],
+    "url": "/FDPEvent/a.jpg",
+    "description": "The Faculty Development Program (FDP) kicked off with a formal inaugural session, setting the agenda for the event."
+  },
+  {
+    "id": 10,
+    "title": "Expert Lectures & Insights",
+    "category": "FDP Event",
+    "tags": [
+      "knowledge",
+      "lectures",
+      "training",
+      "learning",
+      "faculty"
+    ],
+    "url": "/FDPEvent/b.jpg",
+    "description": "Industry experts and academicians delivering insightful lectures and interactive sessions for faculty members."
+  },
+  {
+    "id": 11,
+    "title": "Hands-On Workshops",
+    "category": "FDP Event",
+    "tags": [
+      "workshop",
+      "training",
+      "skill-building",
+      "hands-on",
+      "interactive"
+    ],
+    "url": "/FDPEvent/c.jpg",
+    "description": "Faculty actively participating in hands-on workshops designed to improve technical and pedagogical skills."
+  },
+  {
+    "id": 12,
+    "title": "Collaborative Discussions",
+    "category": "FDP Event",
+    "tags": [
+      "discussion",
+      "collaboration",
+      "brainstorming",
+      "networking"
+    ],
+    "url": "/FDPEvent/d.jpg",
+    "description": "Engaging in panel discussions and brainstorming sessions to exchange ideas and best practices."
+  },
+  {
+    "id": 13,
+    "title": "Technology Demonstrations",
+    "category": "FDP Event",
+    "tags": [
+      "innovation",
+      "demo",
+      "technology",
+      "learning",
+      "tools"
+    ],
+    "url": "/FDPEvent/e.jpg",
+    "description": "Showcasing the latest teaching technologies and innovative tools to enhance the learning experience."
+  },
+  {
+    "id": 14,
+    "title": "Interactive Q&A Sessions",
+    "category": "FDP Event",
+    "tags": [
+      "questions",
+      "interactive",
+      "faculty",
+      "engagement"
+    ],
+    "url": "/FDPEvent/f.jpg",
+    "description": "An open Q&A session where participants engaged with speakers to clarify doubts and share perspectives."
+  },
+  {
+    "id": 15,
+    "title": "Group Activities & Networking",
+    "category": "FDP Event",
+    "tags": [
+      "networking",
+      "faculty",
+      "activities",
+      "collaboration"
+    ],
+    "url": "/FDPEvent/g.jpg",
+    "description": "Collaborative activities that encouraged networking and the sharing of academic experiences."
+  },
+  {
+    "id": 16,
+    "title": "Certification & Appreciation",
+    "category": "FDP Event",
+    "tags": [
+      "certificates",
+      "recognition",
+      "appreciation",
+      "awards"
+    ],
+    "url": "/FDPEvent/h.jpg",
+    "description": "Certificates of participation and appreciation awarded to faculty for their active involvement in the FDP."
+  },
+  {
+    "id": 17,
+    "title": "FDP Closing Ceremony",
+    "category": "FDP Event",
+    "tags": [
+      "closing",
+      "celebration",
+      "team",
+      "success"
+    ],
+    "url": "/FDPEvent/i.jpg",
+    "description": "The FDP concluded with a formal closing ceremony celebrating the successful completion of the event."
+  },
+  {
+    "id": 18,
+    "title": "Group Photo – FDP",
+    "category": "FDP Event",
+    "tags": [
+      "group-photo",
+      "memories",
+      "team",
+      "unity"
+    ],
+    "url": "/FDPEvent/j.jpg",
+    "description": "A memorable group photo marking the successful completion of the Faculty Development Program."
+  },
+  {
+    "id": 19,
+    "title": "Key Takeaways",
+    "category": "FDP Event",
+    "tags": [
+      "takeaways",
+      "learning",
+      "insights",
+      "impact"
+    ],
+    "url": "/FDPEvent/k.jpg",
+    "description": "Participants sharing their key learnings and takeaways from the week-long FDP sessions."
+  },
+  {
+    "id": 20,
+    "title": "Celebration of Knowledge",
+    "category": "FDP Event",
+    "tags": [
+      "celebration",
+      "knowledge",
+      "growth",
+      "achievement"
+    ],
+    "url": "/FDPEvent/l.jpg",
+    "description": "A final moment of joy and reflection, celebrating the spirit of continuous learning and growth."
+  },
+  {
+    "id": 21,
+    "title": "Post-Event Interaction – Networking 1",
+    "category": "FDP Event",
+    "tags": [
+      "networking",
+      "interaction",
+      "informal",
+      "faculty"
+    ],
+    "url": "/FDPEvent/m.jpg",
+    "description": "Faculty members engaged in the first round of informal networking, sharing ideas after the event."
+  },
+  {
+    "id": 22,
+    "title": "Post-Event Interaction – Networking 2",
+    "category": "FDP Event",
+    "tags": [
+      "networking",
+      "collaboration",
+      "conversation",
+      "faculty"
+    ],
+    "url": "/FDPEvent/n.jpg",
+    "description": "Small groups of faculty discussing key takeaways and exchanging thoughts informally."
+  },
+  {
+    "id": 23,
+    "title": "Post-Event Interaction – Group Conversations",
+    "category": "FDP Event",
+    "tags": [
+      "group",
+      "discussion",
+      "ideas",
+      "sharing"
+    ],
+    "url": "/FDPEvent/o.jpg",
+    "description": "Lively group conversations where participants reflected on the event and future opportunities."
+  },
+  {
+    "id": 24,
+    "title": "Post-Event Interaction – Smiles & Moments",
+    "category": "FDP Event",
+    "tags": [
+      "joy",
+      "candid",
+      "smiles",
+      "networking"
+    ],
+    "url": "/FDPEvent/p.jpg",
+    "description": "Candid moments of laughter and bonding as participants shared light-hearted stories."
+  },
+  {
+    "id": 25,
+    "title": "Post-Event Interaction – Experience Sharing",
+    "category": "FDP Event",
+    "tags": [
+      "experience",
+      "knowledge",
+      "learning",
+      "interaction"
+    ],
+    "url": "/FDPEvent/q.jpg",
+    "description": "Faculty members narrating their learning experiences and sharing best practices."
+  },
+  {
+    "id": 26,
+    "title": "Post-Event Interaction – Mentorship Moments",
+    "category": "FDP Event",
+    "tags": [
+      "mentorship",
+      "guidance",
+      "faculty",
+      "knowledge"
+    ],
+    "url": "/FDPEvent/r.jpg",
+    "description": "Senior faculty guiding junior members with tips and insights gained during the FDP."
+  },
+  {
+    "id": 27,
+    "title": "Post-Event Interaction – Networking Circle",
+    "category": "FDP Event",
+    "tags": [
+      "circle",
+      "interaction",
+      "networking",
+      "faculty"
+    ],
+    "url": "/FDPEvent/s.jpg",
+    "description": "Participants forming small networking circles to collaborate on future initiatives."
+  },
+  {
+    "id": 28,
+    "title": "Post-Event Interaction – Knowledge Exchange",
+    "category": "FDP Event",
+    "tags": [
+      "exchange",
+      "learning",
+      "discussion",
+      "faculty"
+    ],
+    "url": "/FDPEvent/t.jpg",
+    "description": "A knowledge exchange session where participants shared teaching strategies and tools."
+  },
+  {
+    "id": 29,
+    "title": "Post-Event Interaction – Group Photo",
+    "category": "FDP Event",
+    "tags": [
+      "group-photo",
+      "memory",
+      "smile",
+      "unity"
+    ],
+    "url": "/FDPEvent/u.jpg",
+    "description": "Capturing a memorable group photo during the post-event interaction session."
+  },
+  {
+    "id": 30,
+    "title": "Post-Event Interaction – Light Moments",
+    "category": "FDP Event",
+    "tags": [
+      "relax",
+      "fun",
+      "smiles",
+      "candid"
+    ],
+    "url": "/FDPEvent/v.jpg",
+    "description": "Faculty members sharing lighthearted moments and relaxing after an insightful event."
+  },
+  {
+    "id": 31,
+    "title": "Post-Event Interaction – Final Round",
+    "category": "FDP Event",
+    "tags": [
+      "wrap-up",
+      "networking",
+      "faculty",
+      "interaction"
+    ],
+    "url": "/FDPEvent/x.jpg",
+    "description": "Final round of networking where participants connected with peers and built collaborations."
+  },
+  {
+    "id": 32,
+    "title": "Post-Event Interaction – Closing Discussions",
+    "category": "FDP Event",
+    "tags": [
+      "discussion",
+      "wrap-up",
+      "conclusion",
+      "sharing"
+    ],
+    "url": "/FDPEvent/y.jpg",
+    "description": "Last discussions of the evening where key points and action items were summarized."
+  },
+  {
+    "id": 33,
+    "title": "Post-Event Interaction – Takeaways",
+    "category": "FDP Event",
+    "tags": [
+      "key-points",
+      "insights",
+      "learning",
+      "reflection"
+    ],
+    "url": "/FDPEvent/z.jpg",
+    "description": "Participants shared their most important takeaways and reflected on the overall experience."
+  },
+  {
+    "id": 34,
+    "title": "Post-Event Interaction – Extended Talks",
+    "category": "FDP Event",
+    "tags": [
+      "long-talks",
+      "exchange",
+      "collaboration",
+      "ideas"
+    ],
+    "url": "/FDPEvent/a1.jpg",
+    "description": "A few participants stayed back for extended conversations, discussing future collaborations."
+  },
+  {
+    "id": 35,
+    "title": "Post-Event Interaction – Networking Snap",
+    "category": "FDP Event",
+    "tags": [
+      "snap",
+      "group",
+      "memory",
+      "faculty"
+    ],
+    "url": "/FDPEvent/a2.jpg",
+    "description": "A snapshot of a lively networking moment, full of smiles and engagement."
+  },
+  {
+    "id": 36,
+    "title": "Post-Event Interaction – Knowledge Bonds",
+    "category": "FDP Event",
+    "tags": [
+      "bonding",
+      "ideas",
+      "faculty",
+      "growth"
+    ],
+    "url": "/FDPEvent/a3.jpg",
+    "description": "Bonds strengthened as participants exchanged knowledge and professional experiences."
+  },
+  {
+    "id": 37,
+    "title": "Post-Event Interaction – Final Goodbyes",
+    "category": "FDP Event",
+    "tags": [
+      "goodbye",
+      "farewell",
+      "smiles",
+      "closure"
+    ],
+    "url": "/FDPEvent/a4.jpg",
+    "description": "Waving goodbye and capturing the final moments before wrapping up the FDP event."
+  },
+  {
+    "id": 38,
+    "title": "Post-Event Interaction – Last Memories",
+    "category": "FDP Event",
+    "tags": [
+      "memories",
+      "closure",
+      "faculty",
+      "farewell"
+    ],
+    "url": "/FDPEvent/a5.jpg",
+    "description": "The last few captured memories of the day, marking the end of an enriching FDP experience."
+  },
+  {
+    "id": 39,
+    "title": "Inkfluence 1.0 – Opening Ceremony",
+    "category": "Inkfluence 1.0",
+    "tags": [
+      "event launch",
+      "college fest",
+      "creativity begins"
+    ],
+    "url": "/Inkfluence/a.jpeg",
+    "description": "The grand opening of Inkfluence 1.0, where imagination met innovation. Students gathered with enthusiasm to kickstart a day filled with art, creativity, and expression."
+  },
+  {
+    "id": 40,
+    "title": "Creative Showcase & Competitions",
+    "category": "Inkfluence 1.0",
+    "tags": [
+      "art exhibition",
+      "design contest",
+      "talent show"
+    ],
+    "url": "/Inkfluence/b.jpeg",
+    "description": "A vibrant display of student talent through sketches, digital art, and live performances. Each creation reflected unique perspectives and limitless imagination."
+  },
+  {
+    "id": 41,
+    "title": "Workshops & Interactive Sessions",
+    "category": "Inkfluence 1.0",
+    "tags": [
+      "learning",
+      "art workshop",
+      "community"
+    ],
+    "url": "/Inkfluence/c.jpeg",
+    "description": "Hands-on sessions where participants explored artistic techniques, creative writing, and design thinking under expert guidance — inspiring minds to think beyond boundaries."
+  },
+  {
+    "id": 42,
+    "title": "Closing Ceremony & Recognition",
+    "category": "Inkfluence 1.0",
+    "tags": [
+      "awards",
+      "celebration",
+      "success"
+    ],
+    "url": "/Inkfluence/d.jpeg",
+    "description": "A heartfelt conclusion to Inkfluence 1.0, honoring winners, participants, and organizers for their creativity and passion that made the event a resounding success."
+  },
+  {
+    "id": 44,
+    "title": "Designing the Future – Creative in Action",
+    "category": "CodeCanvas 1.0",
+    "tags": [
+      "creativity",
+      "future tech",
+      "robotics art"
+    ],
+    "url": "/CodeCanvas/b.jpeg",
+    "description": "Participants poured their visions of the future onto canvas, depicting next-gen robots, artificial intelligence, and human-machine synergy with stunning creativity."
+  },
+  {
+    "id": 45,
+    "title": "Students Bringing Robots to Life",
+    "category": "CodeCanvas 1.0",
+    "tags": [
+      "ai vision",
+      "student innovation",
+      "tech art"
+    ],
+    "url": "/CodeCanvas/c.jpeg",
+    "description": "Young innovators showcased posters that redefined the boundaries of art and technology — transforming imagination into visual stories of AI-driven worlds."
+  },
+  {
+    "id": 46,
+    "title": "Art Meets Algorithm – Poster Display",
+    "category": "CodeCanvas 1.0",
+    "tags": [
+      "digital art",
+      "ai posters",
+      "creative minds"
+    ],
+    "url": "/CodeCanvas/d.jpeg",
+    "description": "A visual treat where students’ artistic brilliance merged with futuristic concepts, portraying how AI and robotics could shape the world ahead."
+  },
+  {
+    "id": 47,
+    "title": "Judgment & Interaction Session",
+    "category": "CodeCanvas 1.0",
+    "tags": [
+      "evaluation",
+      "tech event",
+      "creativity showcase"
+    ],
+    "url": "/CodeCanvas/e.jpeg",
+    "description": "Judges and participants engaged in interactive sessions discussing ideas, designs, and inspirations behind each futuristic poster creation."
+  },
+  {
+    "id": 48,
+    "title": "CodeCanvas 1.0 – Winners & Celebration",
+    "category": "CodeCanvas 1.0",
+    "tags": [
+      "winners",
+      "recognition",
+      "ai art fest"
+    ],
+    "url": "/CodeCanvas/f.jpeg",
+    "description": "The event concluded with appreciation and awards for outstanding creativity, honoring the brilliant young minds who envisioned the future through art and AI."
+  }
+]
