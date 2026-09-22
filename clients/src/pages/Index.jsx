@@ -339,8 +339,8 @@ This isn't just software—it's a movement to restore dignity, boost morale, and
             AAIRO Overview
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12 relative z-10">
-            <div
-              onClick={() => (window.location.href = "#about")}
+            <Link
+              to="/about"
               className="bg-[rgba(30,41,59,0.5)] border border-[rgba(59,130,246,0.2)] rounded-2xl p-8 text-center cursor-pointer transition-all duration-400 backdrop-blur-md relative overflow-hidden hover:-translate-y-2 hover:scale-102 hover:border-[#3b82f6] hover:shadow-lg hover:shadow-[rgba(59,130,246,0.2)] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-gradient-to-r before:from-transparent before:via-[rgba(59,130,246,0.1)] before:to-transparent before:-translate-x-full before:transition-all before:duration-600 before:ease-in-out hover:before:translate-x-full"
             >
               <div className="w-18 h-18 bg-gradient-to-r from-[#3b82f6] to-[#8b5cf6] rounded-full flex items-center justify-center mx-auto mb-6 text-white text-3xl shadow-lg shadow-[rgba(59,130,246,0.3)] transition-all duration-300 group-hover:rotate-12 group-hover:scale-110">
@@ -353,9 +353,9 @@ This isn't just software—it's a movement to restore dignity, boost morale, and
                 Learn about our mission, vision, and the impact we're making in
                 AI and robotics
               </p>
-            </div>
-            <div
-              onClick={() => (window.location.href = "#accreditations")}
+            </Link>
+            <Link
+              to="/accreditations"
               className="bg-[rgba(30,41,59,0.5)] border border-[rgba(59,130,246,0.2)] rounded-2xl p-8 text-center cursor-pointer transition-all duration-400 backdrop-blur-md relative overflow-hidden hover:-translate-y-2 hover:scale-102 hover:border-[#3b82f6] hover:shadow-lg hover:shadow-[rgba(59,130,246,0.2)] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-gradient-to-r before:from-transparent before:via-[rgba(59,130,246,0.1)] before:to-transparent before:-translate-x-full before:transition-all before:duration-600 before:ease-in-out hover:before:translate-x-full"
             >
               <div className="w-18 h-18 bg-gradient-to-r from-[#3b82f6] to-[#8b5cf6] rounded-full flex items-center justify-center mx-auto mb-6 text-white text-3xl shadow-lg shadow-[rgba(59,130,246,0.3)] transition-all duration-300 group-hover:rotate-12 group-hover:scale-110">
@@ -368,9 +368,9 @@ This isn't just software—it's a movement to restore dignity, boost morale, and
                 Our certifications, partnerships, and recognition in the
                 academic community
               </p>
-            </div>
-            <div
-              onClick={() => (window.location.href = "#membership")}
+            </Link>
+            <Link
+              to="/membership"
               className="bg-[rgba(30,41,59,0.5)] border border-[rgba(59,130,246,0.2)] rounded-2xl p-8 text-center cursor-pointer transition-all duration-400 backdrop-blur-md relative overflow-hidden hover:-translate-y-2 hover:scale-102 hover:border-[#3b82f6] hover:shadow-lg hover:shadow-[rgba(59,130,246,0.2)] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-gradient-to-r before:from-transparent before:via-[rgba(59,130,246,0.1)] before:to-transparent before:-translate-x-full before:transition-all before:duration-600 before:ease-in-out hover:before:translate-x-full"
             >
               <div className="w-18 h-18 bg-gradient-to-r from-[#3b82f6] to-[#8b5cf6] rounded-full flex items-center justify-center mx-auto mb-6 text-white text-3xl shadow-lg shadow-[rgba(59,130,246,0.3)] transition-all duration-300 group-hover:rotate-12 group-hover:scale-110">
@@ -383,9 +383,9 @@ This isn't just software—it's a movement to restore dignity, boost morale, and
                 Join our community of innovators and gain access to exclusive
                 resources
               </p>
-            </div>
-            <div
-              onClick={() => (window.location.href = "#calendar")}
+            </Link>
+            <Link
+              to="/calendar"
               className="bg-[rgba(30,41,59,0.5)] border border-[rgba(59,130,246,0.2)] rounded-2xl p-8 text-center cursor-pointer transition-all duration-400 backdrop-blur-md relative overflow-hidden hover:-translate-y-2 hover:scale-102 hover:border-[#3b82f6] hover:shadow-lg hover:shadow-[rgba(59,130,246,0.2)] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-gradient-to-r before:from-transparent before:via-[rgba(59,130,246,0.1)] before:to-transparent before:-translate-x-full before:transition-all before:duration-600 before:ease-in-out hover:before:translate-x-full"
             >
               <div className="w-18 h-18 bg-gradient-to-r from-[#3b82f6] to-[#8b5cf6] rounded-full flex items-center justify-center mx-auto mb-6 text-white text-3xl shadow-lg shadow-[rgba(59,130,246,0.3)] transition-all duration-300 group-hover:rotate-12 group-hover:scale-110">
@@ -397,7 +397,7 @@ This isn't just software—it's a movement to restore dignity, boost morale, and
               <p className="text-[#94a3b8] leading-relaxed">
                 Stay updated with upcoming events, workshops, and competitions
               </p>
-            </div>
+            </Link>
           </div>
         </div>
       </section>
