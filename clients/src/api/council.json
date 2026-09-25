@@ -1,29 +1,104 @@
 {
+  "2025-26": {
+    "current": false,
+    "members": []
+  },
   "2026-27": {
     "current": true,
     "members": [
       {
-        "name": "Council Member",
+        "name": "Yashpal Chopra",
+        "role": "AAIRO Founder & Faculty Coordinator",
+        "group": "faculty",
+        "branch": "",
+        "year": "",
+        "image": "/yashpal.jpg",
+        "linkedin": ""
+      },
+      {
+        "name": "Pranav",
         "role": "President",
         "group": "core",
-        "branch": "CST",
-        "year": "3rd Year",
+        "branch": "",
+        "year": "",
         "image": "",
         "linkedin": ""
       },
       {
-        "name": "Council Member",
+        "name": "Tanuj",
         "role": "Vice President",
         "group": "core",
-        "branch": "CST",
+        "branch": "CSE",
         "year": "3rd Year",
+        "image": "/tanuj.jpeg",
+        "linkedin": "https://www.linkedin.com/in/tanuj-bhardwaj-489103374/"
+      },
+      {
+        "name": "Ankur Tiwari",
+        "role": "General Secretary of Tech",
+        "group": "core",
+        "branch": "IT",
+        "year": "2nd Year",
+        "image": "/ankur.jpeg",
+        "linkedin": "https://www.linkedin.com/in/ankur-tiwari-628908382"
+      },
+      {
+        "name": "Atharv",
+        "role": "AI/ML/DS Lead & Society Web Developer",
+        "group": "core",
+        "branch": "",
+        "year": "",
         "image": "",
         "linkedin": ""
+      },
+      {
+        "name": "Vrinda",
+        "role": "Software Lead",
+        "group": "core",
+        "branch": "",
+        "year": "",
+        "image": "",
+        "linkedin": ""
+      },
+      {
+        "name": "Mahi Goyal",
+        "role": "Gen Sec (Non-Tech) & Media Lead",
+        "group": "core",
+        "branch": "AIML",
+        "year": "2nd Year",
+        "image": "/mahi.jpeg",
+        "linkedin": "https://www.linkedin.com/in/mahi-goyal-07189241b"
+      },
+      {
+        "name": "Vishakha Yadav",
+        "role": "Creative Head",
+        "group": "core",
+        "branch": "Mechanical Engineering",
+        "year": "2nd Year",
+        "image": "/vishakha.jpeg",
+        "linkedin": "https://www.linkedin.com/in/vishakha-yadav-313a4b385"
+      },
+      {
+        "name": "Dhiristy",
+        "role": "Public Relations",
+        "group": "core",
+        "branch": "",
+        "year": "",
+        "image": "",
+        "linkedin": ""
+      },
+      {
+        "name": "Samrridh Pal Singh",
+        "role": "Event Manager Head",
+        "group": "core",
+        "branch": "AIDS",
+        "year": "2nd Year",
+        "image": "/samrridh.jpeg",
+        "linkedin": "https://www.linkedin.com/in/samrridh-pal-singh-993a97392"
       }
     ]
   },
-
-  "2025-26": {
+  "2027-28": {
     "current": false,
     "members": []
   }

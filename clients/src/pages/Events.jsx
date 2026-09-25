@@ -51,6 +51,7 @@ const Events = () => {
   const [progress, setProgress] = useState(0);
   const [selectedEvent, setSelectedEvent] = useState(null);
   const [registrationId, setRegistrationId] = useState("");
+  const [showArchive, setShowArchive] = useState(false);
 
   const branches = [
     "Computer Science",
@@ -414,77 +415,102 @@ const Events = () => {
 
       <main className="relative z-10 px-4 sm:px-6 lg:px-8 pb-20">
         <div className="max-w-7xl mx-auto">
-          <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center">
-              Upcoming Events
-            </h2>
+          <div className="flex justify-center gap-4 mb-12">
+            <button
+              type="button"
+              onClick={() => setShowArchive(false)}
+              className={`px-6 py-3 rounded-xl font-semibold transition-all ${
+                !showArchive
+                  ? "bg-gradient-to-r from-[var(--aairo-red)] to-[#fe7f42]"
+                  : "border border-gray-700 hover:border-gray-500"
+              }`}
+            >
+              Current Events
+            </button>
+            <button
+              type="button"
+              onClick={() => setShowArchive(true)}
+              className={`px-6 py-3 rounded-xl font-semibold transition-all ${
+                showArchive
+                  ? "bg-gradient-to-r from-[var(--aairo-red)] to-[#fe7f42]"
+                  : "border border-gray-700 hover:border-gray-500"
+              }`}
+            >
+              Archive 2025
+            </button>
+          </div>
 
-            <div className="grid md:grid-cols-2 gap-8">
-              {upcomingEvents.map((event) => (
-                <motion.div
-                  key={event.id}
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  whileHover={{ y: -5 }}
-                  className="relative p-8 rounded-2xl backdrop-blur-xl border border-gray-700/50 bg-gradient-to-br from-gray-900/30 to-gray-900/10"
-                >
-                  <div className="inline-flex p-3 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 mb-4">
-                    {eventIcons[event.icon]}
-                  </div>
-
-                  <span className="inline-block mb-3 text-sm uppercase tracking-wide text-cyan-400">
-                    Upcoming
-                  </span>
-
-                  <h3 className="text-2xl font-bold mb-4">{event.title}</h3>
-                  <p className="text-gray-300 mb-6">{event.description}</p>
-
-                  <div className="space-y-2 text-sm text-gray-400">
-                    <p>
-                      <Calendar className="w-4 h-4 inline mr-2" />
-                      {event.startDate} to {event.endDate}
-                    </p>
-
-                    {event.venue && (
-                      <p>
-                        <Globe className="w-4 h-4 inline mr-2" />
-                        {event.venue}
-                      </p>
-                    )}
-                  </div>
-
-                  {event.externalRegistrationUrl && event.registrationOpen ? (
-                    <a
-                      href={event.externalRegistrationUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="mt-6 inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-cyan-600 to-blue-600 px-5 py-3 font-semibold"
-                    >
-                      Register on ATAL Portal
-                      <ExternalLink className="w-4 h-4" />
-                    </a>
-                  ) : event.registrationOpen ? (
-                    <button
-                      type="button"
-                      onClick={() => {
-                        setSelectedEvent(event.id);
-                        setFormData((prev) => ({ ...prev, event: event.id }));
-                      }}
-                      className="mt-6 inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-cyan-600 to-blue-600 px-5 py-3 font-semibold"
-                    >
-                      Register
-                      <ArrowRight className="w-4 h-4" />
-                    </button>
-                  ) : null}
-                </motion.div>
-              ))}
-            </div>
-          </section>
-
-          {pastEvents.length > 0 && (
-            <section className="mb-16 border-t border-gray-700/50 pt-12">
+          {!showArchive ? (
+            <section className="mb-16">
               <h2 className="text-3xl font-bold mb-8 text-center">
-                Past Events
+                Upcoming Events
+              </h2>
+
+              <div className="grid md:grid-cols-2 gap-8">
+                {upcomingEvents.map((event) => (
+                  <motion.div
+                    key={event.id}
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    whileHover={{ y: -5 }}
+                    className="relative p-8 rounded-2xl backdrop-blur-xl border border-gray-700/50 bg-gradient-to-br from-gray-900/30 to-gray-900/10"
+                  >
+                    <div className="inline-flex p-3 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 mb-4">
+                      {eventIcons[event.icon]}
+                    </div>
+
+                    <span className="inline-block mb-3 text-sm uppercase tracking-wide text-cyan-400">
+                      Upcoming
+                    </span>
+
+                    <h3 className="text-2xl font-bold mb-4">{event.title}</h3>
+                    <p className="text-gray-300 mb-6">{event.description}</p>
+
+                    <div className="space-y-2 text-sm text-gray-400">
+                      <p>
+                        <Calendar className="w-4 h-4 inline mr-2" />
+                        {event.startDate} to {event.endDate}
+                      </p>
+
+                      {event.venue && (
+                        <p>
+                          <Globe className="w-4 h-4 inline mr-2" />
+                          {event.venue}
+                        </p>
+                      )}
+                    </div>
+
+                    {event.externalRegistrationUrl && event.registrationOpen ? (
+                      <a
+                        href={event.externalRegistrationUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mt-6 inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-cyan-600 to-blue-600 px-5 py-3 font-semibold"
+                      >
+                        Register on ATAL Portal
+                        <ExternalLink className="w-4 h-4" />
+                      </a>
+                    ) : event.registrationOpen ? (
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setSelectedEvent(event.id);
+                          setFormData((prev) => ({ ...prev, event: event.id }));
+                        }}
+                        className="mt-6 inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-cyan-600 to-blue-600 px-5 py-3 font-semibold"
+                      >
+                        Register
+                        <ArrowRight className="w-4 h-4" />
+                      </button>
+                    ) : null}
+                  </motion.div>
+                ))}
+              </div>
+            </section>
+          ) : (
+            <section className="mb-16">
+              <h2 className="text-3xl font-bold mb-8 text-center">
+                Archive 2025
               </h2>
 
               <div className="grid md:grid-cols-2 gap-8">
@@ -500,7 +526,7 @@ const Events = () => {
                     </div>
 
                     <span className="inline-block mb-3 text-sm uppercase tracking-wide text-gray-500">
-                      Past Event
+                      Archived Event
                     </span>
 
                     <h3 className="text-2xl font-bold mb-4">{event.title}</h3>
@@ -516,7 +542,7 @@ const Events = () => {
             </section>
           )}
 
-          {hasInternalRegistration && (
+          {!showArchive && hasInternalRegistration && (
           <section>
             <motion.div
               initial={{ opacity: 0, y: 40 }}

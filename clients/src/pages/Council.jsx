@@ -28,6 +28,17 @@ function Council() {
 
         <div className="mt-10 flex justify-center gap-3">
           <button
+            onClick={() => navigate("/council/2025-26")}
+            className={
+              selectedYear === "2025-26"
+                ? "rounded-full bg-white px-5 py-2 text-black"
+                : "rounded-full bg-white/10 px-5 py-2"
+            }
+          >
+            2025-26
+          </button>
+
+          <button
             onClick={() => navigate("/council/2026-27")}
             className={
               selectedYear === "2026-27"
@@ -39,14 +50,14 @@ function Council() {
           </button>
 
           <button
-            onClick={() => navigate("/council/2025-26")}
+            onClick={() => navigate("/council/2027-28")}
             className={
-              selectedYear === "2025-26"
+              selectedYear === "2027-28"
                 ? "rounded-full bg-white px-5 py-2 text-black"
                 : "rounded-full bg-white/10 px-5 py-2"
             }
           >
-            2025-26
+            2027-28
           </button>
         </div>
       </div>
