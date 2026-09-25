@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { 
   FaSearch, 
   FaCalendarAlt, 
@@ -18,7 +18,7 @@ const News = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [sortBy, setSortBy] = useState("newest");
   const [bookmarkedItems, setBookmarkedItems] = useState(new Set());
-  const [viewCounts, setViewCounts] = useState({});
+  const [viewCounts] = useState({});
   const [isFilterOpen, setIsFilterOpen] = useState(false);
 
   const newsData = [
@@ -114,12 +114,6 @@ const News = () => {
     setBookmarkedItems(newBookmarks);
   };
 
-  const incrementViewCount = (id) => {
-    setViewCounts(prev => ({
-      ...prev,
-      [id]: (prev[id] || 0) + 1
-    }));
-  };
 
   const shareNews = async (news) => {
     if (navigator.share) {
@@ -141,7 +135,7 @@ const News = () => {
 
   return (
     <>
-      <div className="min-h-screen bg-[#0B0E13] overflow-hidden font-rajdhani">
+      <div className="min-h-screen bg-[var(--aairo-news-bg)] overflow-hidden font-rajdhani">
     
         <div className="relative z-10  mt-15 py-12">
           {/* Header */}

@@ -1,15 +1,14 @@
-import React, { useState, useEffect } from 'react'
-import { Search, Filter, Grid, List, Heart, Share2, Download, X, ChevronLeft, ChevronRight } from 'lucide-react'
+import React, { useState } from 'react'
+import { Filter, Heart, Share2, Download, X, ChevronLeft, ChevronRight } from 'lucide-react'
 import galleryData from '../api/gallery.json'
 
 const Gallery = () => {
-  const [viewMode, setViewMode] = useState('grid')
+  const [viewMode] = useState('grid')
   const [selectedCategory, setSelectedCategory] = useState('all')
-  const [searchTerm, setSearchTerm] = useState('')
+  const [searchTerm] = useState('')
   const [selectedImage, setSelectedImage] = useState(null)
   const [favorites, setFavorites] = useState(new Set())
-  const [isLoading, setIsLoading] = useState(true)
-
+ 
   // Sample gallery data with high-quality placeholder images
   
   const galleryItems = galleryData
@@ -26,12 +25,6 @@ const Gallery = () => {
       item.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase()))
     return matchesCategory && matchesSearch
   })
-
-  // Simulate loading
-  useEffect(() => {
-    const timer = setTimeout(() => setIsLoading(false), 1000)
-    return () => clearTimeout(timer)
-  }, [])
 
   const toggleFavorite = (id) => {
     const newFavorites = new Set(favorites)
@@ -130,7 +123,7 @@ const Gallery = () => {
                 columnGap: '1.5rem',
               }}
             >
-              {categories.map((category, i) => (
+              {categories.map((category) => (
                 <button
                   key={category}
                   onClick={() => setSelectedCategory(category)}

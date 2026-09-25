@@ -150,7 +150,7 @@ const Membership = () => {
       try {
         responseData = await response.json();
         console.log('Success response:', responseData);
-      } catch (parseError) {
+      } catch {
         console.log('Response is not JSON, treating as success');
         responseData = { success: true };
       }

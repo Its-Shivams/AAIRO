@@ -15,6 +15,75 @@
   --aairo-warning: #f59e0b;
   --aairo-error: #ef4444;
   --aairo-info: #3b82f6;
+
+    --aairo-overlay-black-30: rgba(0, 0, 0, 0.3);
+  --aairo-overlay-black-60: rgba(0, 0, 0, 0.6);
+  --aairo-overlay-orange-30: rgba(254, 127, 66, 0.3);
+  --aairo-overlay-orange-40: rgba(254, 127, 66, 0.4);
+  --aairo-overlay-white-20: rgba(255, 255, 255, 0.2);
+  --aairo-overlay-white-30: rgba(255, 255, 255, 0.3);
+  --aairo-overlay-white-50: rgba(255, 255, 255, 0.5);
+
+    --aairo-surface: #0a0e1a;
+  --aairo-surface-light: #1e293b;
+  --aairo-surface-dark: #0f172a;
+
+  --aairo-text-primary: #f1f5f9;
+  --aairo-text-secondary: #94a3b8;
+  --aairo-text-subtle: #64748b;
+
+  --aairo-purple: #8b5cf6;
+
+  --aairo-info-20: rgba(59, 130, 246, 0.2);
+  --aairo-info-30: rgba(59, 130, 246, 0.3);
+  --aairo-info-40: rgba(59, 130, 246, 0.4);
+
+  --aairo-surface-light-30: rgba(30, 41, 59, 0.3);
+
+    --aairo-calendar-dark-green: #1b5e20;
+  --aairo-calendar-light-blue: #03a9f4;
+  --aairo-calendar-red: #f44336;
+  --aairo-calendar-blue: #2196f3;
+  --aairo-calendar-green: #4caf50;
+  --aairo-calendar-yellow: #ffeb3b;
+  --aairo-calendar-orange: #ff9800;
+  --aairo-calendar-black: #000000;
+  --aairo-calendar-default: #607d8b;
+  --aairo-calendar-selected: #60a5fa;
+
+  --aairo-yellow: #fffb97;
+
+  --aairo-text-tertiary: #cbd5e1;
+--aairo-cyan: #00ffff;
+--aairo-pink: #ec4899;
+--aairo-orange-dark: #ff5500;
+
+--aairo-info-05: rgba(59, 130, 246, 0.05);
+--aairo-info-10: rgba(59, 130, 246, 0.1);
+
+--aairo-surface-light-50: rgba(30, 41, 59, 0.5);
+--aairo-surface-80: rgba(10, 14, 26, 0.8);
+
+--aairo-slate-700: #334155;
+--aairo-slate-500: #64748b;
+--aairo-slate-600: #475569;
+--aairo-slate-200: #e2e8f0;
+
+--aairo-purple-20: rgba(139, 92, 246, 0.2);
+
+--aairo-cyan-20: hsl(180, 100%, 50%, 0.2);
+--aairo-green: hsl(150, 100%, 50%);
+--aairo-green-20: hsl(150, 100%, 50%, 0.2);
+--aairo-blue: hsl(220, 100%, 50%);
+--aairo-blue-20: hsl(220, 100%, 50%, 0.2);
+--aairo-lilac: hsl(270, 100%, 70%);
+--aairo-lilac-20: hsl(270, 100%, 70%, 0.2);
+--aairo-black-04: hsl(0, 0%, 4%);
+
+--aairo-info-50: rgba(59, 130, 246, 0.5);
+--aairo-news-bg: #0b0e13;
+
+
 }
 
 @keyframes gradient-shift {

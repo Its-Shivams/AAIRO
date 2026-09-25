@@ -383,9 +383,9 @@ const Events = () => {
           transition={{ duration: 0.8 }}
           className="max-w-7xl mx-auto text-center"
         >
-          <div className="inline-flex items-center gap-2 mb-4 px-4 py-2 bg-gradient-to-r from-[#fe7f42] to-[var(--aairo-red)] backdrop-blur-sm rounded-full border border-cyan-500/30">
-            <Sparkles className="w-4 h-4 text-[#fffb97]" />
-            <span className="text-sm font-medium text-[#fffb97]">
+          <div className="inline-flex items-center gap-2 mb-4 px-4 py-2 bg-gradient-to-r from-[var(--aairo-orange)] to-[var(--aairo-red)] backdrop-blur-sm rounded-full border border-cyan-500/30">
+            <Sparkles className="w-4 h-4 text-[var(--aairo-yellow)]" />
+            <span className="text-sm font-medium text-[var(--aairo-yellow)]">
               AAIRO SOCIETY PRESENTS
             </span>
           </div>
@@ -407,7 +407,7 @@ const Events = () => {
               animate={{ width: `${progress}%` }}
               className="max-w-2xl mx-auto h-1 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full mb-12"
             >
-              <div className="h-full bg-gradient-to-r from-[#fffb97] to-[#fe7f42] rounded-full transition-all duration-300"></div>
+              <div className="h-full bg-gradient-to-r from-[var(--aairo-yellow)] to-[var(--aairo-orange)] rounded-full transition-all duration-300"></div>
             </motion.div>
           )}
         </motion.div>
@@ -421,7 +421,7 @@ const Events = () => {
               onClick={() => setShowArchive(false)}
               className={`px-6 py-3 rounded-xl font-semibold transition-all ${
                 !showArchive
-                  ? "bg-gradient-to-r from-[var(--aairo-red)] to-[#fe7f42]"
+                  ? "bg-gradient-to-r from-[var(--aairo-red)] to-[var(--aairo-orange)]"
                   : "border border-gray-700 hover:border-gray-500"
               }`}
             >
@@ -432,7 +432,7 @@ const Events = () => {
               onClick={() => setShowArchive(true)}
               className={`px-6 py-3 rounded-xl font-semibold transition-all ${
                 showArchive
-                  ? "bg-gradient-to-r from-[var(--aairo-red)] to-[#fe7f42]"
+                  ? "bg-gradient-to-r from-[var(--aairo-red)] to-[var(--aairo-orange)]"
                   : "border border-gray-700 hover:border-gray-500"
               }`}
             >
@@ -538,6 +538,100 @@ const Events = () => {
                     </div>
                   </motion.div>
                 ))}
+              </div>
+            </section>
+          )}
+
+          {!showArchive && (
+            <section className="mb-16">
+              <div className="text-center mb-10">
+                <span className="inline-block mb-3 text-sm uppercase tracking-wide text-cyan-400">
+                  AAIRO 2026
+                </span>
+                <h2 className="text-3xl md:text-4xl font-bold mb-3">
+                  Society Schedule
+                </h2>
+                <p className="text-gray-400 max-w-2xl mx-auto">
+                  Planned activities and participation for the 2026 academic year
+                </p>
+              </div>
+
+              <div className="mb-10">
+                <h3 className="text-2xl font-bold mb-6">College Level</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div className="p-6 rounded-2xl backdrop-blur-xl border border-gray-700/50 bg-gradient-to-br from-gray-900/30 to-gray-900/10">
+                    <div className="inline-flex p-3 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 mb-4">
+                      <GraduationCap className="w-7 h-7" />
+                    </div>
+                    <h4 className="text-xl font-bold mb-2">FDP</h4>
+                    <p className="text-cyan-400 mb-3">September</p>
+                    <ul className="space-y-2 text-gray-300 text-sm">
+                      <li>Complimentary lunch</li>
+                      <li>College certification</li>
+                    </ul>
+                  </div>
+
+                  <div className="p-6 rounded-2xl backdrop-blur-xl border border-gray-700/50 bg-gradient-to-br from-gray-900/30 to-gray-900/10">
+                    <div className="inline-flex p-3 rounded-xl bg-gradient-to-r from-purple-500 to-pink-600 mb-4">
+                      <Trophy className="w-7 h-7" />
+                    </div>
+                    <h4 className="text-xl font-bold mb-2">Technorex</h4>
+                    <p className="text-cyan-400 mb-3">September</p>
+                    <ul className="space-y-2 text-gray-300 text-sm">
+                      <li>Project Competition</li>
+                      <li>College certification</li>
+                    </ul>
+                  </div>
+
+                  <div className="p-6 rounded-2xl backdrop-blur-xl border border-gray-700/50 bg-gradient-to-br from-gray-900/30 to-gray-900/10">
+                    <div className="inline-flex p-3 rounded-xl bg-gradient-to-r from-orange-500 to-red-600 mb-4">
+                      <Sparkles className="w-7 h-7" />
+                    </div>
+                    <h4 className="text-xl font-bold mb-2">Fest</h4>
+                    <p className="text-cyan-400 mb-3">March</p>
+                    <ul className="space-y-2 text-gray-300 text-sm">
+                      <li>Various events</li>
+                      <li>Project Competition</li>
+                    </ul>
+                  </div>
+
+                  <div className="p-6 rounded-2xl backdrop-blur-xl border border-gray-700/50 bg-gradient-to-br from-gray-900/30 to-gray-900/10">
+                    <div className="inline-flex p-3 rounded-xl bg-gradient-to-r from-green-500 to-emerald-600 mb-4">
+                      <Cpu className="w-7 h-7" />
+                    </div>
+                    <h4 className="text-xl font-bold mb-2">Engg Synergy 3.0</h4>
+                    <p className="text-cyan-400 mb-3">College Level</p>
+                    <ul className="space-y-2 text-gray-300 text-sm">
+                      <li>AAIRO's own project exhibition</li>
+                      <li>College level</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold mb-6">Outside College</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div className="p-6 rounded-2xl backdrop-blur-xl border border-gray-700/50 bg-gradient-to-br from-gray-900/30 to-gray-900/10">
+                    <div className="inline-flex p-3 rounded-xl bg-gradient-to-r from-blue-500 to-cyan-600 mb-4">
+                      <Trophy className="w-7 h-7" />
+                    </div>
+                    <h4 className="text-xl font-bold mb-2">Hackathons</h4>
+                    <p className="text-gray-300 text-sm">
+                      Participation in hackathons outside the college.
+                    </p>
+                  </div>
+
+                  <div className="p-6 rounded-2xl backdrop-blur-xl border border-gray-700/50 bg-gradient-to-br from-gray-900/30 to-gray-900/10">
+                    <div className="inline-flex p-3 rounded-xl bg-gradient-to-r from-violet-500 to-purple-600 mb-4">
+                      <Code className="w-7 h-7" />
+                    </div>
+                    <h4 className="text-xl font-bold mb-2">Project Competitions</h4>
+                    <p className="text-gray-300 text-sm">
+                      Participation in project competitions outside the college.
+                    </p>
+                  </div>
+                </div>
               </div>
             </section>
           )}
@@ -959,7 +1053,7 @@ const Events = () => {
                     whileTap={{ scale: 0.98 }}
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full py-4 px-8 bg-gradient-to-r from-[var(--aairo-red)] to-[#fe7f42] hover:from-[var(--aairo-red)] hover:to-[#fe7f42] disabled:opacity-50 rounded-xl text-xl font-bold transition-all duration-300 shadow-lg shadow-cyan-500/20 hover:shadow-xl hover:shadow-cyan-500/30"
+                    className="w-full py-4 px-8 bg-gradient-to-r from-[var(--aairo-red)] to-[var(--aairo-orange)] hover:from-[var(--aairo-red)] hover:to-[var(--aairo-orange)] disabled:opacity-50 rounded-xl text-xl font-bold transition-all duration-300 shadow-lg shadow-cyan-500/20 hover:shadow-xl hover:shadow-cyan-500/30"
                   >
                     {isSubmitting ? (
                       <span className="flex items-center justify-center gap-3">

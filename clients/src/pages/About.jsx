@@ -105,7 +105,7 @@ const About = () => {
           left: 0;
           width: 100%;
           height: 100%;
-          background: rgba(0, 0, 0, 0.3);
+          background: var(--aairo-overlay-black-30);
         }
 
         .carousel-caption {
@@ -123,7 +123,7 @@ const About = () => {
           text-transform: uppercase;
           letter-spacing: 2px;
           margin-bottom: 2rem;
-          text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+          text-shadow: 2px 2px 8px var(--aairo-overlay-black-60);
           background: linear-gradient(
             to right,
             var(--aairo-orange),
@@ -161,12 +161,12 @@ const About = () => {
           letter-spacing: 1px;
           transition: all 0.3s ease;
           text-decoration: none;
-          box-shadow: 0 4px 15px rgba(254, 127, 66, 0.3);
+          box-shadow: 0 4px 15px var(--aairo-overlay-orange-30);
         }
 
         .cta-button:hover {
           transform: translateY(-3px);
-          box-shadow: 0 6px 20px rgba(254, 127, 66, 0.4);
+          box-shadow: 0 6px 20px var(--aairo-overlay-orange-40);
           color: white;
           text-decoration: none;
         }
@@ -176,7 +176,7 @@ const About = () => {
           top: 50%;
           transform: translateY(-50%);
           z-index: 20;
-          background: rgba(255, 255, 255, 0.2);
+          background: var(--aairo-overlay-white-20);
           width: 50px;
           height: 50px;
           border-radius: 50%;
@@ -191,7 +191,7 @@ const About = () => {
         }
 
         .carousel-control:hover {
-          background: rgba(255, 255, 255, 0.3);
+          background: var(--aairo-overlay-white-30);
         }
 
         .carousel-control.prev {
@@ -219,7 +219,7 @@ const About = () => {
           width: 12px;
           height: 12px;
           border-radius: 50%;
-          background: rgba(255, 255, 255, 0.5);
+          background: var(--aairo-overlay-white-50);
           margin: 0 8px;
           cursor: pointer;
           transition: all 0.3s ease;
