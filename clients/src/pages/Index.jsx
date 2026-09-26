@@ -482,7 +482,7 @@ This isn't just software—it's a movement to restore dignity, boost morale, and
                 Mechanical Professor
               </p>
               <p className="mb-2">
-                <strong>President:</strong> Kartik Arora, 4th year, CSE Deptt.
+                <strong>President:</strong> Pranav Kaushik, 3rd year, CS Deptt.
               </p>
             </div>
             <div className="grid gap-6 relative pl-8 before:absolute before:top-0 before:left-0 before:w-1 before:h-full before:bg-gradient-to-b before:from-transparent before:via-[var(--aairo-info)] before:to-transparent">

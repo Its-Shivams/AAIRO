@@ -16,13 +16,13 @@
         "linkedin": ""
       },
       {
-        "name": "Pranav",
+        "name": "Pranav Kaushik",
         "role": "President",
         "group": "core",
-        "branch": "",
-        "year": "",
-        "image": "",
-        "linkedin": ""
+        "branch": "CS",
+        "year": "3rd Year",
+        "image": "/pranav.jpeg",
+        "linkedin": "https://www.linkedin.com/in/pranav-kaushik-5801b2272"
       },
       {
         "name": "Tanuj",
@@ -43,13 +43,13 @@
         "linkedin": "https://www.linkedin.com/in/ankur-tiwari-628908382"
       },
       {
-        "name": "Atharv",
-        "role": "AI/ML/DS Lead & Society Web Developer",
+        "name": "Atharv Tiwari",
+        "role": "Computational Intelligence Head",
         "group": "core",
-        "branch": "",
-        "year": "",
-        "image": "",
-        "linkedin": ""
+        "branch": "CSE",
+        "year": "3rd Year",
+        "image": "/atharv.jpeg",
+        "linkedin": "https://linkedin.com/in/atharvtw"
       },
       {
         "name": "Vrinda",
@@ -79,13 +79,13 @@
         "linkedin": "https://www.linkedin.com/in/vishakha-yadav-313a4b385"
       },
       {
-        "name": "Dhiristy",
-        "role": "Public Relations",
+        "name": "Drishty Sharma",
+        "role": "HR/PR",
         "group": "core",
-        "branch": "",
-        "year": "",
-        "image": "",
-        "linkedin": ""
+        "branch": "Mechanical Engineering",
+        "year": "2nd Year",
+        "image": "/Dhiristy.jpeg",
+        "linkedin": "https://www.linkedin.com/in/drishty-sharma-69a438368"
       },
       {
         "name": "Samrridh Pal Singh",
