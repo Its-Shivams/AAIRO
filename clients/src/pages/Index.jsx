@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import LightRays from "../components/LightRays";
 import {
@@ -14,6 +14,21 @@ import {
 } from "react-icons/fa";
 
 const Index = () => {
+  const [splineReady, setSplineReady] = useState(false);
+
+  useEffect(() => {
+    if (!window.customElements?.get("spline-viewer")) {
+      const script = document.createElement("script");
+      script.type = "module";
+      script.src =
+        "https://unpkg.com/@splinetool/viewer@1.10.42/build/spline-viewer.js";
+      script.onload = () => setSplineReady(true);
+      document.head.appendChild(script);
+    } else {
+      setSplineReady(true);
+    }
+  }, []);
+
   const [buzzItems] = useState([
     {
       id: 1,
@@ -192,11 +207,13 @@ This isn't just software—it's a movement to restore dignity, boost morale, and
 
         {/* 3D Model Container - Only visible on large screens */}
         <div className="absolute inset-y-0 left-0 right-0 opacity-80 z-0 lg:left-auto lg:right-0 lg:w-1/2 xl:w-3/5 hidden lg:block">
-          <spline-viewer
-            url="https://prod.spline.design/N5qT8XCa4ypqhgCx/scene.splinecode"
-            loading="lazy"
-            class="w-full h-full"
-          ></spline-viewer>
+          {splineReady && (
+            <spline-viewer
+              url="https://prod.spline.design/N5qT8XCa4ypqhgCx/scene.splinecode"
+              loading="lazy"
+              class="w-full h-full"
+            ></spline-viewer>
+          )}
         </div>
 
         {/* LightRays Container - Only visible on mobile/tablet */}
